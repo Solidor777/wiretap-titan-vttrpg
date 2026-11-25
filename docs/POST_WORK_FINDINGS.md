@@ -2,6 +2,6 @@
 
 Gotchas and issues from post-work reviews that deserve attention. Not a to-do list.
 
-- A fresh `npm install` with npm 10.8.1 on Node 26.11.1 fails in the peer-set resolver
-  (`Cannot read properties of null (reading 'edgesOut')`). The committed `package-lock.json` avoids it; regenerate the
-  lockfile with care.
+- npm 11 does not run dependency install scripts until they are approved; `npm install` warns that
+  `@parcel/watcher` (an optional dependency of Sass's file watcher) was skipped. The build, tests and lints do not
+  need it.

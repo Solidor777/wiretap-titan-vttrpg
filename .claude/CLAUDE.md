@@ -39,8 +39,6 @@ npm run check:release
 | `npm run check:release` | a file `module.json` loads does not exist, or `dist/` holds a file other than `index.js`, `index.js.map` and `style.css` |
 
 - On a crash, read the crash output yourself before reporting.
-- A fresh `npm install` without the lockfile fails in npm's peer-set resolver on this machine; keep
-  `package-lock.json` committed (`docs/POST_WORK_FINDINGS.md`).
 
 ## Collaboration
 
