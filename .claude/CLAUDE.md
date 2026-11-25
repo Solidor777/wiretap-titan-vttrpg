@@ -171,5 +171,5 @@ Only one task at a time may use each of these.
 - Agents: `wiretap:foundry-module-dev` for client `.js` / `.svelte` work, `wiretap:wiretap-coder` for everything else,
   `wiretap:wiretap-spec-reviewer` then `wiretap:wiretap-code-reviewer` after each task. Their briefs carry this file's
   rules, because the agents were written for Wiretap.
-- The plugin is a copy of Wiretap's `.claude/skills` and `.claude/agents`; Wiretap's own copies stay authoritative
-  until the plugin is wired into the Wiretap workspace.
+- The plugin is the only copy of these skills and agents; the Wiretap workspace uses it too. Edit them only for Wiretap
+  work, from the Wiretap workspace.
