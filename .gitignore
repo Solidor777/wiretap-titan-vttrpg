@@ -1,0 +1,20 @@
+.idea
+.DS_Store
+.vite-cache/
+.vscode/**/*
+!.vscode/extensions.json
+dist/
+node_modules/
+test-results/
+playwright-report/
+.superpowers/
+*.old
+
+# Claude Code per-user settings.
+.claude/settings.local.json
+
+# graphify output (regenerate with `graphify update .`)
+graphify-out/
+
+# Debug sink.
+debug/

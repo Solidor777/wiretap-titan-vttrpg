@@ -1,0 +1,2 @@
+// Shared SCSS prepended to every Svelte component's style block (vite.config.mjs `prependData`). It must emit no CSS:
+// it is included once per component. Holds variables and mixins only; it has none yet.

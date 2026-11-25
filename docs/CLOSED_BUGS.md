@@ -1,0 +1,3 @@
+# Closed bugs
+
+None.
