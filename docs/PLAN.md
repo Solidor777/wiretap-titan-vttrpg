@@ -16,5 +16,6 @@ Goals and decisions for the module, and work not yet built. Work history goes to
 
 ## Work not yet built
 
-- Receive the Titan-specific content that leaves Wiretap: the per-subtype key-field lists of Wiretap's compact
-  document view. How an add-on supplies key fields to Wiretap is designed with the owner first.
+- Use the per-subtype key-field lists of Wiretap's compact document view, which left Wiretap and are stored at
+  `data/keyFields.json` (keyed by system id, then `<documentName>.<type>`). Nothing reads them yet. How the add-on
+  supplies them to Wiretap is designed with the owner when key fields are needed.
